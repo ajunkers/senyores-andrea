@@ -65,6 +65,8 @@ a{
 
 .datos {
 	padding: 0 0 0 20px;
+	position: relative;
+	width: 100%;
 }
 
 .inicial {
@@ -84,11 +86,21 @@ article:hover > div > img{
 	transform: scaleX(-1);
 }
 
+.icono {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	display: none;
+}
+
+article:hover > div > .icono {
+	display: unset;
+}
+
 @media (max-width: 1200px) {
 	main, header {
 		width: 100%;
 	}
-
 }
 
 @media (min-width: 1200px) {
