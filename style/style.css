@@ -82,6 +82,10 @@ a{
 	border-radius: 50%;
 }
 
+article > div > img {
+	transition: all 1s;
+}
+
 article:hover > div > img{
 	transform: scaleX(-1);
 }
@@ -92,6 +96,7 @@ article:hover > div > img{
 	bottom: 0;
 	display: none;
 }
+
 
 article:hover > div > .icono {
 	display: unset;
