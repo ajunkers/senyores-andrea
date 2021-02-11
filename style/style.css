@@ -25,6 +25,12 @@ main, header{
 	align-items: center;
 }
 
+article {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 @media (max-width: 1200px) {
 	main, header {
 		width: 100%;
