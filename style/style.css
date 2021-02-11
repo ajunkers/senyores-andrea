@@ -90,6 +90,11 @@ article:hover > div > img{
 	transform: scaleX(-1);
 }
 
+.fa-check-circle{
+	color: #060;
+	background-image: radial-gradient(at center, #fff 50%, transparent 50%);
+}
+
 .icono {
 	position: absolute;
 	right: 0;
