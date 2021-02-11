@@ -1,23 +1,30 @@
+* {
+	box-sizing: border-box;
+}
 body{
 	font-family: 'Open Sans', sans-serif;
 	background-color: #c2e7da;
 	margin: 0;
 	padding: 0;
-/* 	display: flex;
-	flex-direction: column; */
-
+ 	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
+
 img {
 	height: 200px;
 	border-radius: 50%;
 }
-main {
+
+main, header{
 	display: flex;
 	flex-direction: column;
-}
-main, header{
 	padding: 0 15px 0 15px;
+	justify-content: center;
+	align-items: center;
 }
+
 @media (max-width: 1200px) {
 	main, header {
 		width: 100%;
@@ -28,5 +35,19 @@ main, header{
 @media (min-width: 1200px) {
 	main, header {
 		width: 1140px;
+	}
+}
+
+@media (max-width: 800px) {
+	article{
+		width: 100%;
+		background-color: blue;
+	}
+}
+
+@media (min-width: 800px) {
+	article{
+		width: 80%;
+		background-color: red;
 	}
 }
