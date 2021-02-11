@@ -41,13 +41,11 @@ main, header{
 @media (max-width: 800px) {
 	article{
 		width: 100%;
-		background-color: blue;
 	}
 }
 
 @media (min-width: 800px) {
 	article{
 		width: 80%;
-		background-color: red;
 	}
 }
