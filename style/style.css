@@ -146,3 +146,33 @@ article:hover > div > .icono {
 		top: 50%;
 	}
 }
+
+@media (max-width: 555px) {
+	h1 {
+		font-size: 24px;
+		text-align: center;
+	}
+
+	header > p {
+		font-size: 20px;
+		text-align: center;
+	}
+
+	.image{
+		padding-bottom: 10px;
+		border-bottom: dashed #fff 2px;
+		border-right: none;
+	}
+
+	article {
+		flex-direction: column;
+	}
+
+	.datos, .image {
+		width: 100%;
+	}
+	.datos {
+		text-align: center;
+	}
+
+}
